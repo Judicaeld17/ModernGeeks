@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+
+}
+.base{
+    width: 100%;
+   flex: 1 200px;
+    padding: 10px;
+    /*Pour appliquer le flexbox aux fils left*/
+    display: flex;
+    flex-flow: column wrap;
+}
+.base:nth-of-type(1) {
+  background-color: rgb(194, 44, 18);
+  
+}
+.base:nth-of-type(2) {
+    background-color:white;
+    flex: 3 200px;
+} 
+/*DISPOSITION DE Left*/
+.left img{
+    border-radius: 50%;
+}
+
+.left {
+    color: white;
+}
+
+.contact{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px;
+}
+
+.sousec-contact{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.language{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.langue{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.sousec-langue{
+    margin: 0px 10px 0px 0px;
+}
+
+header{
+    color: rgb(194, 44, 18);
+    margin: 10px 0px ;
+    padding: 10px 0px;
+}
+
+.base h2 {
+    color: rgb(194, 44, 18) ;
+}
